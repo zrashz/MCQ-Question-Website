@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ee7dce;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgb(236, 228, 228);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+#options {
+    margin: 20px 0;
+}
+
+.option {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background: #e1e1e1;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.option:hover {
+    background: hsl(0, 4%, 58%);
+}
+
+.hidden {
+    display: none;
+}
+
+.correct {
+    background: #4CAF50; /* Green for correct answer */
+    color: white;
+}
+
+.incorrect {
+    background: #f44336; /* Red for incorrect answer */
+    color: white;
+}
+#next-button, #restart-button {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px; /* Increased padding for more height and width */
+    background: #818323;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 200px; /* Set a fixed width for the buttons */
+}
+
+#next-button:hover, #restart-button:hover {
+    background: #060606;
+}
+
